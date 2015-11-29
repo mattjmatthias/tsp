@@ -1,0 +1,222 @@
+
+footer {
+    background-color: #E5E5E5;
+    border-top: 8px solid #DFDFDF;
+    color: #b0b0b0;
+    font-size: .929em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer span {
+    color: #FF5252;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+footer ul { 
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.10em;
+    padding: 0;
+}
+
+footer li {    
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+footer input[type="email"]{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    float: left;
+    padding-bottom: 0.1875rem;
+    border: none;
+    background-color: #F4F4F4;
+    box-shadow: none;
+    text-align: left;
+}
+
+footer input[type="button"]{
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    padding-bottom: 0.1875rem;
+    border: none;
+    background-color: #efefef;
+    box-shadow: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list {
+    color: #8B8B8B;    
+}
+
+.footer-list-header {
+    color: #000000;   
+    font-weight: 600;  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+.social-footer-item {
+    float: left;
+    display: inline-block;
+}
+
+.social-sub-wrapper{    
+    padding: 2.1875rem 0 2.1875rem 0;
+    text-align: center;
+    display:inline-block;
+}
+
+.social-list {    
+    list-style-type: none;  
+    display: inline-block;
+    list-style: none;
+}
+
+.social-list li {    
+    list-style-type: none;
+    display: block;
+    float: left;
+}
+
+.copyright {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-right: 20px;
+    margin-top: -25px;
+    height: 70px;
+}
+
+.subscribe-group {
+    border-bottom-color: rgb(187, 187, 187);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-sizing: border-box;
+    color: rgb(37, 37, 37);
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    height: 38.796875px;
+    line-height: 23.2000007629395px;
+    margin-left: 35px;
+    padding: 0;
+    text-align: center;
+    width: 420px;
+    margin-top: 5px;
+}
+
+.subscribe-email {
+    width: 273px;
+    height: 35px;
+}
+
+.subscribe-button {
+    width: 147px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(0, 0, 0);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 26.796875px;
+    letter-spacing: 1.60000002384186px;
+    line-height: normal;
+    margin: 0;
+    opacity: 1;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    width: 147px;
+}
+
+input:focus {
+  outline: 0;
+} 
+
+    .subscribe-new-line {
+        display: none;
+    }
+
+@media(max-width:768px) {   
+    .subscribe-new-line {
+        display:block;
+    }
+    
+     .social-sub-wrapper {
+         display: block;
+     }
+    
+    .social-wrapper {
+         padding-bottom: 30px;
+     }
+     
+    .social-icons:after {
+        content: '\A';
+    }
+    
+    .social-icons {
+      height: 70px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .social-footer-item {
+      display: inline-block;
+        float: none;
+    }
+    
+    .social-footer-item .input-group {
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .subscribe-button {
+        height: 50px;
+        display: inline-block;
+    }
+    
+    .subscribe-group {
+        margin: 0;
+        width: 100%;
+    }
+    
+    footer input[type="email"]{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
